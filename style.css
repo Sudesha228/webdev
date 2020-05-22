@@ -166,6 +166,7 @@ header .navbar ul li a.active::before {
     background-image: url('desktop.jpg');
     background-size: cover;
     background-position: center;
+    background-size: 75% 75%;
     padding: 15px;
 }
 
