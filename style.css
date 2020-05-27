@@ -120,7 +120,7 @@ header .navbar ul li {
 }
 
 header .navbar ul li a {
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     line-height: 50px;
     color: #ffffff;
@@ -135,7 +135,7 @@ header.fixed .navbar ul li a {
 
 header .navbar ul li a::before {
     content: '';
-    631 height: 3px;
+    height: 3px;
     background-color: #ffffff;
     width: 0%;
     position: absolute;
@@ -295,7 +295,7 @@ header .navbar ul li a.active::before {
 }
 
 .about-me .about-content .text p {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 24px;
     color: #838383;
@@ -647,5 +647,21 @@ footer .social a:hover {
     }
     .about-me .about-content .text .info .list p {
         flex: 0 0 100%;
+    }
+    header .navbar ul li a {
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 50px;
+        color: #ffffff;
+        display: block;
+        font-weight: 600;
+        position: relative;
+    }
+    .about-me .about-content .text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #838383;
+        margin: 0 0 20px
     }
 }
